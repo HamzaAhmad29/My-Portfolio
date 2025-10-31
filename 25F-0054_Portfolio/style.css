@@ -1,0 +1,114 @@
+body {
+    font-family: calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #530000;
+    color: #f1f5bd;
+}
+nav {
+    background-color: #f1f5bd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: rgb(100, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #598be1;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(to bottom, #530000, #530000);
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f3f5bd;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.2);
+}
+
+/* Education Section */
+#education ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Contact Form */
+form {
+    background: #530000;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #f3f5bd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f5bd;
+    color: rgb(100, 0, 0);
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #530000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
